@@ -25,6 +25,13 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+    "import/extensions": [
+    "error",
+    "always",
+    {
+      "js": "never"
+    }
+  ]
   },
   overrides:[
     {
@@ -32,4 +39,5 @@ module.exports = {
       excludedFiles: 'babel.config.js',
     }
   ]
+
 };
